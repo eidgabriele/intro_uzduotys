@@ -2,7 +2,7 @@
 eiluciu_skaicius = 0
 eiluciu_ilgiai = []
 didziuju_kiekiai = []
-with open('naujas/randomtext.txt', 'r') as failas:
+with open('level_1.txt', 'r') as failas:
     tekstas = failas.readlines()
     for eilute in tekstas:
         didziosios = 0
